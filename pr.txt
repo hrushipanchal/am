@@ -1,0 +1,22 @@
+const express = require('express');
+const app = express();
+app.use(express.static('public/'));
+app.listen(8080, function(){
+    console.log('Server listening at 8080');
+});
+
+
+open git bash
+select folder n open in git bash
+git version
+git config --global user.name
+git config --global user.email
+git init
+git add file_name
+git status
+git commit -m "adding file_name"
+git log
+open github
+login new resp n copy second file
+n paste in git bash
+login
